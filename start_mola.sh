@@ -27,9 +27,9 @@ if [ "$IGNORE_TF" = true ]; then
   export MOLA_USE_FIXED_GPS_POSE=true
 fi
 
-if [ "$IGNORE_ODOM" = true]; then
-
-fi
+# if [ "$IGNORE_ODOM" = true]; then
+#
+# fi
 
 # Set topics
 LIDAR_TOPIC=/seinsing/lidar/top/pointcloud
